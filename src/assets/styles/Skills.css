@@ -1,0 +1,88 @@
+.section-skills {
+    height: 100vh;
+    background-color: transparent;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+.icons {
+  height: 6em;
+  padding: 0;
+  will-change: filter;
+  transition: filter 300ms;
+  float: left;
+  padding: 18px;
+}
+.icons:hover {
+  filter: drop-shadow(0 0 2em #2B688D);
+}
+.icons.react:hover {
+  filter: drop-shadow(0 0 2em #2B688D);
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+}
+
+.icon-row { 
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cycle2 {
+  height: 6em;
+  border-radius: 50%;   
+  overflow: hidden;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 19px;
+}
+
+.cycle2:hover { 
+  filter: drop-shadow(0 0 2em #2B688D);
+}
+
+.cycle2.react:hover {
+  filter: drop-shadow(0 0 2em #2B688D);
+}
+
+.skills-section {
+    padding: 20px;
+}
+
+.skills-cards {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .section-skills {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 800px;
+    width: 100%;
+    }
+
+    .icon-section {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 480px) {
+  .experience-text {
+    font-size: 16px;
+  }
+}

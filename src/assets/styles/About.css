@@ -1,0 +1,56 @@
+.section {
+    height: 100vh;
+    background-color: transparent;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.about-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: filter 0.3s;
+}
+
+.about-photo:hover {
+    filter: drop-shadow(0 0 30px #2B688D);
+}
+
+.about-text {
+    max-width: 500px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        min-width: 200px;
+        margin-top: 700px;
+    }
+
+    .about-photo {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        padding: 0 20px;
+    }
+}

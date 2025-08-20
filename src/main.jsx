@@ -9,8 +9,6 @@ import Projects from './assets/pages/Projects.jsx'
 import Education from './assets/pages/Education.jsx'
 import Experience from './assets/pages/Experience.jsx'
 import Contact from './assets/pages/Contact.jsx'
-import Menuitemnavbar from './assets/pages/Menuitemnavbar.jsx'
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

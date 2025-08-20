@@ -1,17 +1,19 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # oscar-portfolio
-Personal portfolio website showcasing my skills, education, and projects as a software developer. Built with React and styled for a clean, modern look.
->>>>>>> b5766cff4718fc866dc8f100c4391477e7042d2b
+
+A personal portfolio website built with **React** and **Vite**, showcasing my skills, education, and projects as a software developer. The site is designed with a clean, modern look and responsive layout.
+
+## Features
+- ✅ Modern and responsive design
+- ✅ Smooth animations using Framer Motion
+- ✅ Contact form integrated with EmailJS
+- ✅ Interactive portfolio projects section
+
+## Tech Stack
+- **Frontend:** React, Vite
+- **Animations:** Framer Motion
+- **Particles/Visual Effects:** react-tsparticles
+- **Styling:** CSS / SCSS (or Tailwind if you use it)
+
+## Live Demo
+[View the live site](https://oscarlj40.github.io/oscar-portfolio/)
+
